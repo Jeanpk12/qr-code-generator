@@ -1,5 +1,20 @@
-# Vue 3 + Vite
+# QR Code Generator
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Uma aplicação simples em Vue.js para gerar QR Codes a partir de URLs fornecidas pelo usuário.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Descrição
+
+Este projeto permite que os usuários insiram um link, validem se ele começa com "https://", e gerem um QR Code correspondente. Caso o link seja inválido, uma mensagem de erro é exibida. A interface é amigável e responsiva, com um visual limpo e feedback instantâneo ao usuário.
+
+## Tecnologias Utilizadas
+
+- Vue.js 3
+- HTML5
+- CSS3
+
+## Funcionalidades
+
+- Inserção de URL pelo usuário.
+- Validação do link inserido.
+- Geração de QR Code a partir de URL válida.
+- Exibição de mensagem de erro para links inválidos.
